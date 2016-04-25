@@ -14,7 +14,7 @@ console.log("capPlanets = ", capPlanets);
 
 // Use the filter method to create a new array that contains planets with the letter 'e'
 var ePlanets = planets.filter(function(yesE) {
-  return yesE.indexOf("e") === ;
+  return yesE.indexOf("e") !== -1;
 })
 console.log("ePlanets = ", ePlanets);
 
