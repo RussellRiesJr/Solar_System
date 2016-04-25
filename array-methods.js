@@ -19,5 +19,9 @@ var ePlanets = planets.filter(function(yesE) {
 console.log("ePlanets = ", ePlanets);
 
 // Use the reduce method to create a sentence from the words in the following array
-
 var words = ["The", "early", "bird", "might", "get", "the", "worm", "but", "the", "second", "mouse", "gets", "the", "cheese"];
+
+var sen = words.reduce(function(a, b) {
+  return a + " " + b;
+})
+console.log("The sentence is: ", sen);
